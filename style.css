@@ -1,6 +1,14 @@
+body{
+    height: 100vb;
+    width: 100%;
+    margin: 0;
+}
+
 .left, .right{
     width: 50%;
     height: 100vb;
+    background-color: #070606;
+    margin: 0;
 }
 .left{
     float: left;
@@ -10,13 +18,14 @@
 }
 
 .content {
-    height: 80vb;
+    height: 90vb;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
     align-content: stretch;
     align-items: center;
+    color: whitesmoke;
 }
 
 fieldset{
@@ -26,4 +35,68 @@ fieldset{
 .form{
     display: flex;
     flex-direction: column;
+}
+
+#signUp{
+    width: 295px;
+    margin-bottom: 12px;
+    font-size: 32px;
+    text-align: left;
+}
+
+#subText{
+    color: #a4a6a9;
+    width: 300px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+input{
+    border: 1px solid #4f4a4a;
+    background-color: transparent;
+    height: 55px;
+    width: 300px;
+    margin: 7px;
+    border-radius: 10px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    color: #a4a6a9;
+    font-size: 16px;
+}
+
+#logIn{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    border-style: none;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+hr{
+    width:130px;
+    margin: 9px 5px 0 5px;
+}
+#socialBtn{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: center;
+}
+
+.social{
+    margin: 0 5px;
+    height: 35px;
+    width: 50%;
+    border-radius: 12px;
+    background-color: #2b2828;
+    border-style: none;
+    color: #b7bcc0;
 }

@@ -11,23 +11,22 @@
     </div>
     <div class="right">
         <div class="content">
-            <label for="Sign Up">
+            <label id="signUp" for="Sign Up">
                 Sign Up
             </label>
+            <label for="subText" id="subText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quia.</label>
             <fieldset class="form">
-                <label for="First-Name">First Name</label>
-                <input type="text" name="f-name" id="f-name">
-                <label for="Last-Name">Last Name</label>
-                <input type="text" name="l-name" id="l-name">
-                <label for="Sign Up">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="text" name="f-name" id="f-name" placeholder="First Name">
+                <input type="text" name="l-name" id="l-name" placeholder="Last Name">
+                <input type="password" name="password" id="password" placeholder="Password"> 
             </fieldset>
             <fieldset>
-                <button>Log In</button>
+                <button id="logIn">Log In</button>
             </fieldset>
-            <fieldset>
-                <button>Google</button>
-                <button>Facebook</button>
+            <div class="line"><hr size="2">or<hr size="2"></div>
+            <fieldset id="socialBtn">
+                <button class="social">Google</button>
+                <button class="social">Facebook</button>
             </fieldset>
         </div>
     </div>
