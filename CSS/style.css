@@ -1,0 +1,146 @@
+body{
+    height: 100vb;
+    width: 100%;
+    margin: 0;
+}
+
+.left, .right{
+    width: 50%;
+    height: 100vb;
+    background-color: #070606;
+    margin: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.content {
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    color: whitesmoke;
+}
+
+fieldset{
+    border: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+#signUp{
+    width: 395px;
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight:600;
+    text-align: left;
+}
+
+#subText{
+    position: relative;
+    justify-self: center;
+    color: #a4a6a9;
+    width: 250px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    left: -75px;
+}
+
+input{
+    border: 1px solid #4f4a4a;
+    background-color: transparent;
+    height: 55px;
+    width: 400px;
+    margin: 7px;
+    border-radius: 10px;
+    color: aliceblue;
+    padding-left: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+input::placeholder{
+    color: #a4a6a9;
+    font-size: 16px;
+}
+
+input:hover{
+    color: #a4a6a9;
+    border-color: #a4a6a9;
+    transition: ease-in-out 0.2s;
+}
+
+#logIn{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    border-style: none;
+    transition: ease-in-out 0.1s;
+}
+
+#logIn:hover{
+    font-size: 18px;
+    transition: ease-in-out 0.1s;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    color:#7d7b7b;
+}
+
+hr{
+    width: 180px;
+    margin: 9px 5px 0 5px;
+    border-color: #7d7b7b;
+}
+#socialBtn{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: center;
+}
+
+.social{
+    margin: 0 5px;
+    height: 35px;
+    width: 50%;
+    border-radius: 12px;
+    background-color: #2b2828;
+    border-style: none;
+    color: #a6a5a5;
+    transition: ease-in-out 0.1s;
+}
+
+.social:hover{
+    font-size: 16px;
+    background-color: #454545;
+    transition: ease-in 0.1s;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left div{
+    height: 98%;
+    width: 100%;
+    margin: 12px;
+}
+
+.left img{
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+}
