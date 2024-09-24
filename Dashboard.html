@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-base.min.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/dashboard.css">
     <title>DashBoard</title>
@@ -34,7 +35,7 @@
             <div class="box1">
                 <div class="text">
                     <p id="title">Active Credit</p>
-                    <label id="activeCredit" for="activeCredit">11,2 BTC</label>
+                    <label id="activeCredit" for="activeCredit">11.2 BTC</label>
                     <p id="irlcurrency">$ 28477.50</p>
                 </div>
                 <button><i class='bx bx-chevron-right'></i></button>
@@ -57,7 +58,26 @@
                 </div>
             </div>
         </div>
-        <div class="box3"></div>
+        <div class="box3">
+            <div id="payBox">
+                <div id="paymentBox">
+                    <div id="payText">
+                        <p>Payment Goal</p>
+                        <h1>27%</h1>
+                    </div>
+                    <div id="payBtn">
+                        <button><i class='bx bx-chevron-right'></i></button>
+                    </div>
+                </div>
+                <div id="payChartBox">
+                    <div id="payGraph"></div>
+                    <div id="payChartBtn">
+                        <button>Send</button>
+                        <button>Recieve</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="box4"></div>
     </div>
     <div class="container3">
